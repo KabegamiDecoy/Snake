@@ -113,7 +113,7 @@ function move() {
     if (snakeBody[0].classList.contains('snakeBody')) {
         setTimeout(() => {
         alert(`Игра окончена. Ваши очки: ${score}`);
-        }, 200);
+        }, 300);
         clearInterval(interval);
         snakeBody[0].style.background = 'url(scream.jpg) center no-repeat';
         snakeBody[0].style.backgroundSize = "cover";
